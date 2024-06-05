@@ -1,4 +1,14 @@
+# About Dataset 
+Link for the dataset:
+https://zindi.africa/competitions/zindiweekendz-learning-urban-air-pollution-challenge
 
+This is a weather data and daily observations from the Sentinel 5P satellite tracking various pollutants in the atmosphere. The goal is to use this information to predict PM2.5 particulate matter concentration (a common measure of air quality that normally requires ground-based sensors to measure) every day for each city. The data covers the last three months, spanning hundreds of cities across the globe.
+
+Train.csv - contains the target and supporting data for 349 locations. This is the dataset that will be used to train the model.
+Test.csv- resembles Train.csv but without the target-related columns, and covers 179 different locations.This is the dataset on which the model will be applied.
+
+#### Evaluation:
+The error metric is the Root Mean Squared Error
 
 ## Set up your Environment
 
@@ -52,6 +62,6 @@ Or ....
     If you encounter an error when trying to run `pip install --upgrade pip`, try using the following command:
     ```Bash
     python.exe -m pip install --upgrade pip
-    ```
+
 
 
